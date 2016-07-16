@@ -11,12 +11,14 @@
 </head>
 
 <body>
-    <header class="row">
+    <header class="medium-12 columns row">
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About Us</li>
                 <li>Contact Us</li>
+                <li>About Us</li>
+                <li>Home</li>
+
+
             </ul>
         </nav>
     </header>
@@ -49,12 +51,23 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="medium-12 columns">
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="medium-12 columns">
+            <nav class="secondnav">
+                <ul>
+                    <li>Blogs</li>
+                    <li>Blogs</li>
+                </ul>
+            </nav>
         </div>
     </section>
 
@@ -63,5 +76,6 @@
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 
 </html>

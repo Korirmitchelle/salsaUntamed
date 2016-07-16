@@ -1,6 +1,7 @@
 header {
     background-color: #333;
     color: indianred;
+    width: 100%;
 }
 header nav ul li {
     list-style: none;
@@ -8,6 +9,19 @@ header nav ul li {
     float: right;
     padding: 1%;
     margin: 2%;
+}
+section nav ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+}
+.secondnav {
+    background-color: #333;
+    color: indianred;
+    width: 100%;
+    padding: 1%;
 }
 
 /* Slideshow container */
