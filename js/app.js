@@ -29,3 +29,26 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+
+
+
+
+
+$(function () {
+    setInterval(function () {
+        $('#f1_card').toggleClass("transformStyle transformRotate");
+    }, 3000)
+})
+
+$(function () {
+    setInterval(function () {
+        $('#f1_card1').toggleClass("transformStyle transformRotate");
+    }, 3000)
+})
+
+$(function () {
+    setInterval(function () {
+        $('#f1_card2').toggleClass("transformStyle transformRotate");
+    }, 3000)
+})
