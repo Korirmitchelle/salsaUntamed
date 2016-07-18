@@ -25,6 +25,13 @@ section nav ul li {
 }
 body {
     background-color: #333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header img {
+    height: 100px;
+    width: 100px;
 }
 
 /* Slideshow container */
@@ -403,4 +410,128 @@ body {
 .quotes {
     margin-top: 1%;
     padding: 4%
+}
+.last {
+    margin-top: 0.5%;
+}
+.kushoto {
+    width: 50%;
+    float: left;
+}
+.kushoto h1,
+.kushoto p,
+.kushoto input {
+    margin-left: 33%;
+}
+.kulia {
+    width: 50%;
+    float: right;
+}
+.kulia1 {
+    width: 50%;
+    float: left;
+}
+.kulia2 {
+    width: 50%;
+    float: right;
+}
+.kulia1a {
+    height: 100px;
+    background-color: #726D6E;
+}
+.kulia1b {
+    height: 100px;
+    background-color: #352D2F;
+}
+.kulia2a {
+    height: 100px;
+    background-color: #352D2F;
+}
+.kulia2b {
+    height: 100px;
+    background-color: #726D6E;
+}
+.a1aicon {
+    width: 30%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+.a1aicon img {
+    padding-top: 30%;
+    padding-left: 35%;
+}
+.a1aexp {
+    width: 70%;
+    float: right;
+    height: 100px;
+}
+.a1aexp h3,
+.a1aexp h5 {
+    padding-top: 10%;
+    color: #fff;
+}
+.a1bicon {
+    width: 30%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+.a1bicon img {
+    padding-top: 30%;
+    padding-left: 35%;
+}
+.a1bexp {
+    width: 70%;
+    float: right;
+    height: 100px;
+}
+.a1bexp h3,
+.a1bexp h5 {
+    padding-top: 10%;
+    color: #fff;
+}
+.a2aicon {
+    width: 30%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+.a2aicon img {
+    padding-top: 30%;
+    padding-left: 35%;
+}
+.a2aexp {
+    width: 70%;
+    float: right;
+    height: 100px;
+}
+.a2aexp h3,
+.a2aexp h5 {
+    padding-top: 10%;
+    color: #fff;
+}
+.a2bicon {
+    width: 30%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+.a2bicon img {
+    padding-top: 30%;
+    padding-left: 35%;
+}
+.a2bexp {
+    width: 70%;
+    float: right;
+    height: 100px;
+}
+.last h3,
+.last h5 {
+    font-size: 15px;
+}
+.a2bexp h3,
+.a2bexp h5 {
+    padding-top: 10%;
+    color: #fff;
 }
