@@ -168,100 +168,16 @@ body {
     opacity: 1;
     margin-bottom: 20px;
 }
-
-/*.circle {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 5px solid black;
-  margin: auto;
-  -webkit-animation: rotateY 1s infinite linear;
-  animation: rotateY 1s infinite linear;
+.did-you-know {
+    height: 500px;
 }
 
-.did-you-know div.facts-about:nth-child(2) {
-    background: #D3D3D3;
-
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s;
-}
-.did-you-know div.facts-about {
-    opacity: 0;
-    z-index: 0;
-	-webkit-backface-visibility: hidden;
-    -webkit-animation: rotateFacts 45s linear infinite 0s;
-    -moz-animation: rotateFacts 45s linear infinite 0s;
-    -o-animation: rotateFacts 45s linear infinite 0s;
-    -ms-animation: rotateFacts 45s linear infinite 0s;
-    animation: rotateFacts 45s linear infinite 0s;
-}
-@-webkit-keyframes rotateY {
-  to { -webkit-transform: rotateY(180deg); }
-}
-@keyframes rotateY {
-  to { transform: rotateY(180deg); }
-}
-
-@keyframes rotateFacts {
-	0% {
-	    opacity: 0;
-	}
-	8% {
-	    opacity: 1;
-	}
-	17% {
-	    opacity: 1;
-	}
-	80% {
-		opacity: 0;
-	    -webkit-transform: rotateY(180deg);
-	}100% {
-		opacity: 0;
-	}
-}*/
+/*.
 
 
-/*.did-you-know div.facts-about:nth-child(2) {
-    background: #D3D3D3;
 
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s;
-}
 
-.did-you-know div.facts-about:nth-child(3) {
-    background: #D3D3D3;
 
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
-}
-
-@-webkit-keyframes factsAnimation {
-	0% {
-	    opacity: 0;
-	    -webkit-animation-timing-function: ease-in;
-	}
-	8% {
-	    opacity: 1;
-	    -webkit-transform: scale(1.05);
-	    -webkit-animation-timing-function: ease-out;
-	}
-	17% {
-	    opacity: 1;
-	    -webkit-transform: scale(1.1);
-	}
-	22% {
-		opacity: 0;
-		-webkit-transform: scale(1.1) translateX(-40%);
-	}
 	25% {
 	    opacity: 0;
 	    -webkit-transform: scale(1.1) translateX(-100%);
@@ -480,3 +396,11 @@ body {
 }
 .heading-words {}
 .heading-words span {}
+.quotes img {
+    height: 183px;
+    width: 275px;
+}
+.quotes {
+    margin-top: 1%;
+    padding: 4%
+}
