@@ -106,32 +106,70 @@
 
     </section>
     <section class="row quotes">
-        <div class="medium-4 columns">
+        <div class="medium-4 columns quote3">
             <div><img src="images/latest1.jpg" alt=""></div>
             <div>
                 <p> “It does not matter how sweet you can sing a song of love. You must know how to dance along with it. You can't dance "salsa dance" on a "reggae song".”
                     <br> &mdash;Israelmore Ayivor</p>
             </div>
         </div>
-        <div class="medium-4 columns">
+        <div class="medium-4 columns quote1">
             <div><img src="images/salsa1.jpg" alt=""></div>
             <div>“Dance as the narration of a magical story; that recites on lips, illuminates imaginations and embraces the most sacred depths of souls.”
                 <br>
                 <br> &mdash;Shah Asad Rizvi.</div>
         </div>
-        <div class="medium-4 columns">
-            <img src="images/socialdance.jpg" alt="">
-        </div>
-        <div>
-            <p>“When a dancer performs, melody transforms into a carriage, expressions turn into fuel and spirit experiences a journey to a world where passion attains fulfillment.”
-                <br> &mdash; Shah Asad Rizvi</p>
+        <div class="medium-4 columns quote2">
+            <div> <img src="images/socialdance.jpg" alt=""></div>
+
+            <div>
+                <p>“When a dancer performs, melody transforms into a carriage, expressions turn into fuel and spirit experiences a journey to a world where passion attains fulfillment.”
+                    <br> &mdash; Shah Asad Rizvi</p>
+            </div>
         </div>
     </section>
 
     <section class="row">
         <div class="medium-12 columns">
             <div class="medium-8 columns">
-                <iframe src="" frameborder="0"></iframe>
+                <div class="" id="location">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:400px;width:520px;'>
+                        <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+                        <style>
+                            #gmap_canvas img {
+                                max-width: none!important;
+                                background: none!important
+                            }
+
+                        </style>
+                    </div><a href='https://embedmap.org/'>https://www.embedMap.org</a>
+                    <a href='https://embedmap.org/'></a>
+                    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=aa25b6b081798ba6a62a8d103ed219fff52ef65c'></script>
+                    <script type='text/javascript'>
+                        function init_map() {
+                            var myOptions = {
+                                zoom: 12,
+                                center: new google.maps.LatLng(51.948819400000005, 20.84287819999997),
+                                mapTypeId: google.maps.MapTypeId.HYBRID
+                            };
+                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                            marker = new google.maps.Marker({
+                                map: map,
+                                position: new google.maps.LatLng(51.948819400000005, 20.84287819999997)
+                            });
+                            infowindow = new google.maps.InfoWindow({
+                                content: '<strong>Salsa Untamed</strong><br>aleja Krakowska<br>61, 02-183 <br>'
+                            });
+                            google.maps.event.addListener(marker, 'click', function() {
+                                infowindow.open(map, marker);
+                            });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+
+                    </script>
+                </div>
             </div>
             <div class="medium-4 columns">
                 <h3>Location</h3>
